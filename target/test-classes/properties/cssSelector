@@ -1,0 +1,24 @@
+input[id='first_name']
+input#first_name
+input[class='first_name']
+input.first_name
+input[placeholder='first name']
+input.textfield[placeholder='first name'][value='erger']
+input#textfield[placeholder='first name'][value='erger']
+^ = prefix
+$ = suffix
+* = substring
+input[name^='first_']
+input[name$='_name']
+input[name*='_']
+select#country>option[value='wefwe'] direct child
+form#myForm div child and sub child
+option[value='sdfwf']+option //next sibling
+select#mysel>:first-child //first child (direct child)
+select#mysel :first-child //first child (child and subchild)
+select#mysel>:last-child //last child (direct child)
+select#mysel>:nth-child(4) //nth child (direct child) -> select#mysel> option:nth-child(4) -> select#mysel>*:nth-child(4)
+select#mysel>:nth-last-child(4) //nth last child count from the end (direct child)
+form#myForm>input:first-of-type //first child element specific to type
+form#myForm>input:last-of-type //last child element specific to type
+form#myForm>input:nth-of-type(2) //nth child element specific to type

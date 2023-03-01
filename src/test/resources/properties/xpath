@@ -1,0 +1,17 @@
+/html/body/div/div[1]/input[@name='egerg']
+//input[starts-with(@name,'testname')]
+//input[contains(@name,'tesname')]
+//a[text()='gfreg']
+//input[@id='ewgwe' and @name='erge']
+//input[@id='ewgwe' or @name='erge']
+//select[@name='erter']//parent::div
+//select[@name='erter']//child::option[1]
+//select[@name='erter']//self:select
+//div[@class='wefwe']//descendant::div
+//div[@class='wefwe']//descendant-or-self::div
+//div[@class='wefwe']//ancestor::div
+//div[@class='wefwe']//ancestor-or-self::div
+//div[@class='wefwe']//following::div
+//div[@class='wefwe']//following-sibling::div
+//div[@class='wefwe']//preceding::div
+//div[@class='wefwe']//preceding-sibling::div
